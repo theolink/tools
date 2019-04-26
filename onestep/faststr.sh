@@ -10,7 +10,7 @@ sudo mkdir /etc/rtk/log/
 sudo mkdir /etc/rtk/cmd/
 sudo chmod -R 777 /etc/rtk
 cd /etc/rtk/cmd/
-wget
+wget https://raw.githubusercontent.com/theolink/tools/master/rtk/m8t_5hz_uart_beidou.cmd
 cd /etc/rtk/
 wget
 sudo chmod +x /etc/rtk/strinit.sh

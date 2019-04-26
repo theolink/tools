@@ -10,10 +10,10 @@ sudo mkdir /etc/rtk/log/
 sudo mkdir /etc/rtk/cmd/
 sudo chmod -R 777 /etc/rtk
 cd /etc/rtk/cmd/
-wget
+wget https://raw.githubusercontent.com/theolink/tools/master/rtk/m8t_5hz_uart_beidou.cmd
 cd /etc/rtk/
-wget
-wget
+wget https://raw.githubusercontent.com/theolink/tools/master/rtk/rtkrcv.conf
+wget https://raw.githubusercontent.com/theolink/tools/master/rtk/rcvinit.sh
 sudo chmod +x /etc/rtk/rcvinit.sh
 sudo touch /etc/rtk/log/rcvinit.log
 sudo chmod 777 /etc/rtk/log/rcvinit.log
