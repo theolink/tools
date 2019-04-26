@@ -1,7 +1,7 @@
 #!/bin/sh
 cd /usr/local/bin/
-wget https://github.com/theolink/tools/raw/master/rtk/str2str
-chmod +x /usr/local/bin/str2str
+sudo wget https://github.com/theolink/tools/raw/master/rtk/str2str
+sudo chmod +x /usr/local/bin/str2str
 mkdir /etc/rtk/
 mkdir /etc/rtk/log/
 mkdir /etc/rtk/cmd/
