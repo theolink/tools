@@ -1,5 +1,5 @@
 #!/bin/sh
-apt-get install wvdial
+apt-get install wvdial -y
 cd /etc/
 wget https://raw.githubusercontent.com/theolink/tools/master/wvdial/wvdial.conf
 mkdir /etc/wvdial/
